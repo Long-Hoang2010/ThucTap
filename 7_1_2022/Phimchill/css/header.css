@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style-type: none !important;
+}
+
+.btn-humber {
+    display: none;
+}
+
+.container-fluid {
+    width: 80%;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.952);
+    padding: 5px 0 0;
+    font-family: roboto;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    z-index: 1;
+}
+
+.logo img {
+    padding: 10px;
+}
+
+.navv li {}
+
+.navv li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 30px 10px;
+}
+
+.navv li a:hover {
+    color: #ff9601;
+}
+
+.vip {
+    color: #ff9601 !important;
+}
+
+.header_search {
+    position: relative;
+}
+
+.header_search input {
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 7px;
+    outline: none;
+}
+
+.header_search input::placeholder {
+    color: #fff;
+}
+
+.header_search button {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    padding: 7px;
+    border: 1px solid transparent;
+    background: #000;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.theloai {
+    position: relative;
+}
+
+.theloai:hover .theloai1 {
+    display: block;
+}
+
+.theloai1 {
+    position: absolute;
+    background: #000;
+    top: 200%;
+    width: 300%;
+    display: none;
+}
+
+.theloai1 li {
+    width: 50%;
+    padding: 5px;
+    text-align: left;
+    float: left;
+}
+
+.theloai1 li a {
+    width: 100%;
+    font-size: 14px;
+    text-transform: inherit;
+    padding: 5px;
+}
+
+.quocgia {
+    position: relative;
+}
+
+.quocgia:hover .quocgia1 {
+    display: block;
+}
+
+.quocgia1 {
+    position: absolute;
+    background: #000;
+    top: 200%;
+    width: 300%;
+    display: none;
+}
+
+.quocgia1 li {
+    width: 50%;
+    padding: 5px;
+    text-align: left;
+    float: left;
+}
+
+.quocgia1 li a {
+    width: 100%;
+    font-size: 14px;
+    text-transform: inherit;
+    padding: 5px;
+}
+
+.namphathanh {
+    position: relative;
+}
+
+.namphathanh1 {
+    position: absolute;
+    background: #000;
+    top: 200%;
+    width: 300%;
+    display: none;
+}
+
+.namphathanh:hover .namphathanh1 {
+    display: block;
+}
+
+.namphathanh1 li {
+    width: 50%;
+    padding: 5px;
+    text-align: left;
+    float: left;
+}
+
+.namphathanh1 li a {
+    width: 100%;
+    font-size: 14px;
+    text-transform: inherit;
+    padding: 5px;
+}
+
+.topphim {
+    position: relative;
+}
+
+.topphim:hover .topphim1 {
+    display: block;
+}
+
+.topphim1 {
+    position: absolute;
+    background: #000;
+    top: 200%;
+    width: 300%;
+    display: none;
+}
+
+.topphim1 li {
+    width: 50%;
+    padding: 5px;
+    text-align: left;
+    float: left;
+}
+
+.topphim1 li a {
+    width: 100%;
+    font-size: 14px;
+    text-transform: inherit;
+    padding: 5px;
+}

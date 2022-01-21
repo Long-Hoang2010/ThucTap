@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    background: #333;
+}
+
+.content12 {
+    padding-top: 16px;
+}
+
+.h1 {
+    font-size: 25px;
+    color: #ff8a00;
+    margin: 0;
+}
+
+.slide {
+    margin: 10px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.slide:hover i {
+    display: block !important;
+}
+
+.slide i {
+    position: absolute;
+    background: #fff;
+    color: #ff8a00;
+    left: 50%;
+    top: 50%;
+    font-size: 35px;
+    cursor: pointer;
+    transform: scale(1.5);
+    margin: -25px 0 0 -25px;
+    border-radius: 50%;
+    display: none;
+    opacity: 0.8;
+    transition: 0.5s ease-in;
+}
+
+.slide:hover .p5 {}
+
+.slide img {
+    display: block;
+    transition: .3s ease-in-out;
+}
+
+.slide img:hover .slide i {
+    display: block;
+}
+
+.slide img:hover {
+    transform: scale(1.1);
+    /*you can change number*/
+    cursor: pointer;
+}
+
+.slide .p3 {
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.p4 {
+    top: 0;
+    position: absolute;
+    color: #fff;
+    background-image: linear-gradient(to right, #e02b2b 0%, #ccb763 51%, #f13c3c 100%);
+    padding: 5px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.content2 {
+    padding: 25px 0;
+}
+
+.content2_1 {
+    display: flex;
+    align-items: center;
+}
+
+.content2_1_ul {
+    display: flex;
+}
+
+.content2_1_ul li a {
+    padding: 10px;
+}
+
+.vip1 {
+    background: #ff8a00 !important;
+    color: #fff !important;
+}
+
+.content2_1_ul1 {}
+
+.content2_1 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content2_1_1 {
+    display: flex;
+    margin: 0;
+}
+
+.content2_1_1 li a:hover {
+    background: #ff8a00;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.content2_1_1 li a {
+    padding: 3px 5px;
+    background: #504d49;
+    margin: 5px;
+    color: #fff;
+}
+
+.content2_2 {
+    text-align: end;
+}
+
+.content2_2 a {
+    padding: 3px 5px;
+    background: #504d49;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.content2_2 a:hover {
+    color: #ff8a00;
+}
+
+.list-film {}
+
+.item {
+    float: left;
+    width: 20%;
+}
+
+.list-item>.item.large {
+    width: 40%;
+}
+
+.content2_footer {
+    padding-bottom: 25px;
+}
+
+.content2_footer a {
+    color: #fff;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.content2_footer a:hover {
+    color: #ff8a00;
+}
